@@ -1,4 +1,9 @@
-meu-primeiro-projeto
-        zwedd
+# Meu primeiro projeto
 
-afff
+* Funcionalidade 1
+* Funcionalidade 2
+* Funcionalidade 3
+* Funcionalidade 4
+* Funcionalidade 5
+* Funcionalidade 6
+* Funcionalidade 7

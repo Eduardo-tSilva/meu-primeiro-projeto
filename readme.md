@@ -1,9 +1,10 @@
-# Meu primeiro projeto
+# Meu primeiro projeto - 3 Semestre
 
-* Funcionalidade 1
-* Funcionalidade 2
-* Funcionalidade 3
-* Funcionalidade 4
-* Funcionalidade 5
-* Funcionalidade 6
-* Funcionalidade 7
+* Projeto da Disciplina Projeto Integrador, orientado pelo professor Enoque Leal.
+Neste projeto é ensinado funcionalidades para implementação Web usando arquitetura MVC.
+
+Entre essa funcionalidades inclui:
+ 
+* Manipulação de Dados via SQL;
+* Inserção, exclusão e alteração de conteúdo no Banco de Dados
+* Criação de página HTML;

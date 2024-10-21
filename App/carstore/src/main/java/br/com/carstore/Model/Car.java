@@ -2,28 +2,25 @@ package br.com.carstore.Model;
 
 public class Car {
 
+    private String id;
     private String name;
     private String color;
 
-    public String getName() {
-        return name;
+    public String getId() {
+        return id;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getName() {
+        return name;
     }
 
     public String getColor() {
         return color;
     }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
 
-
-
-    public Car(String color, String name) {
+    public Car( String id, String name, String color) {
+        this.id = id;
         this.color = color;
         this.name = name;
     }

@@ -4,7 +4,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/App/carstore/pom.xml" />
+        <option value="$PROJECT_DIR$/app/carstore/pom.xml" />
       </list>
     </option>
   </component>

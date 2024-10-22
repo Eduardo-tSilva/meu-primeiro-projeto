@@ -15,7 +15,7 @@ public class CarDao {
 
     public void createCar(Car car) {
 
-        String SQL = "INSERT INTO CAR (NAME, COLOR) VALUES (?,?)";
+        String SQL = "INSERT INTO CAR (NAME, COLOR, IMAGE) VALUES (?,?,?)";
 
         try {
 
@@ -25,6 +25,7 @@ public class CarDao {
 
             preparedStatement.setString(1, car.getName());
             preparedStatement.setString(2, car.getColor());
+            preparedStatement.setString(3, car.getImage());
 
 
             preparedStatement.execute();
@@ -59,8 +60,9 @@ public class CarDao {
                 String id = resultSet.getString("id");
                 String carName = resultSet.getString("name");
                 String color = resultSet.getString("color");
+                String image = resultSet.getString("image");
 
-                Car car = new Car(id,carName, color);
+                Car car = new Car(id,carName, color, image);
 
                 cars.add(car);
 
@@ -107,7 +109,7 @@ public class CarDao {
 
     public void updateCar(Car car){
 
-        String SQL = "UPDATE CAR SET NAME = ?, COLOR = ? WHERE ID = ?";
+        String SQL = "UPDATE CAR SET NAME = ?, COLOR = ?, IMAGE = ? WHERE ID = ?";
 
         try {
 
@@ -118,6 +120,7 @@ public class CarDao {
             preparedStatement.setString(1, car.getName());
             preparedStatement.setString(2, car.getColor());
             preparedStatement.setString(3, car.getId());
+            preparedStatement.setString(4, car.getImage());
 
             preparedStatement.execute();
 

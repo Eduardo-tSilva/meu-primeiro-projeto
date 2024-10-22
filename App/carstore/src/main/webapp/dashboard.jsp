@@ -19,6 +19,7 @@
             <th>ID</th>
             <th>Name</th>
             <th>Color</th>
+            <th>Image</th>
             <c:if test="${sessionScope.loggedUser != null}">
                 <th>Actions</th>
             </c:if>
@@ -28,6 +29,7 @@
                 <td>${car.id}</td>
                 <td>${car.name}</td>
                 <td>${car.color}</td>
+                <td>${car.image}</td>
                 <td>
                     <c:if test="${sessionScope.loggedUser != null}">
                       <form action="/delete-car" method="post">
